@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UI Tests" time="184" tests="12" failures="0" errors="0">
+   <testsuite name="UI Tests" tests="12" failures="0" errors="0" time="184" timestamp="2019-01-19 16:20:21" hostname="klusm - 192.168.0.13" id="Test Suites/UI Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/klusm/Documents/agh/Testowanie/shop-zpw-tests/shop-zpw-tests/Reports/UI Tests/20190119_162019"/>
+         <property name="logFiles" value="/Users/klusm/Documents/agh/Testowanie/shop-zpw-tests/shop-zpw-tests/Reports/UI Tests/20190119_162019/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="klusm - 192.168.0.13"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="sessionId" value="41682baf-856c-4a4d-b332-d37f6a918062"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/1 Login with valid admin account" classname="Test Cases/Web UI Tests/Login and registration/1 Login with valid admin account" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:20:21 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/1 Login with valid admin account: Test Cases/Web UI Tests/Login and registration/1 Login with valid admin account
+
+2019-01-19 16:20:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:20:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:20:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-19 16:20:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:20:24 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:20:34 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:20:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email (2)"), "admin@shop.com"): Text 'admin@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (2)'
+
+2019-01-19 16:20:34 - [MESSAGE][PASSED] - Text 'admin@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (2)'
+
+2019-01-19 16:20:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password (2)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (2)'
+
+2019-01-19 16:20:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (2)'
+
+2019-01-19 16:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login")): Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:20:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Administrator Panel"), 100): Object 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is present
+
+2019-01-19 16:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is present
+
+2019-01-19 16:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_Administrator Panel")): Object: 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is clicked on
+
+2019-01-19 16:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is clicked on
+
+2019-01-19 16:20:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Orders"), 100): Object 'Object Repository/Page_Shop ZPW/a_Orders' is present
+
+2019-01-19 16:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Orders' is present
+
+2019-01-19 16:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_Orders"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Shop ZPW/a_Orders' is clicked on
+
+2019-01-19 16:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Orders' is clicked on
+
+2019-01-19 16:20:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Products"), 100): Object 'Object Repository/Page_Shop ZPW/a_Products' is present
+
+2019-01-19 16:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Products' is present
+
+2019-01-19 16:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_Products")): Object: 'Object Repository/Page_Shop ZPW/a_Products' is clicked on
+
+2019-01-19 16:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Products' is clicked on
+
+2019-01-19 16:20:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_New Product"), 100): Object 'Object Repository/Page_Shop ZPW/a_New Product' is present
+
+2019-01-19 16:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_New Product' is present
+
+2019-01-19 16:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_New Product")): Object: 'Object Repository/Page_Shop ZPW/a_New Product' is clicked on
+
+2019-01-19 16:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_New Product' is clicked on
+
+2019-01-19 16:20:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Configuration"), 100): Object 'Object Repository/Page_Shop ZPW/a_Configuration' is present
+
+2019-01-19 16:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Configuration' is present
+
+2019-01-19 16:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_Configuration")): Object: 'Object Repository/Page_Shop ZPW/a_Configuration' is clicked on
+
+2019-01-19 16:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Configuration' is clicked on
+
+2019-01-19 16:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout (1)")): Object: 'Object Repository/Page_Shop ZPW/button_Logout (1)' is clicked on
+
+2019-01-19 16:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout (1)' is clicked on
+
+2019-01-19 16:20:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:20:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/2 Login with valid employee account" classname="Test Cases/Web UI Tests/Login and registration/2 Login with valid employee account" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:20:38 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/2 Login with valid employee account: Test Cases/Web UI Tests/Login and registration/2 Login with valid employee account
+
+2019-01-19 16:20:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:20:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:20:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:20:40 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:20:48 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email (2)"), "emp@shop.com"): Text 'emp@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (2)'
+
+2019-01-19 16:20:48 - [MESSAGE][PASSED] - Text 'emp@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (2)'
+
+2019-01-19 16:20:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password (2)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (2)'
+
+2019-01-19 16:20:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (2)'
+
+2019-01-19 16:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login")): Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:20:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Administrator Panel"), 100): Object 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is present
+
+2019-01-19 16:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is present
+
+2019-01-19 16:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_Administrator Panel")): Object: 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is clicked on
+
+2019-01-19 16:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Administrator Panel' is clicked on
+
+2019-01-19 16:20:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Orders"), 100): Object 'Object Repository/Page_Shop ZPW/a_Orders' is present
+
+2019-01-19 16:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Orders' is present
+
+2019-01-19 16:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_Orders"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Shop ZPW/a_Orders' is clicked on
+
+2019-01-19 16:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Orders' is clicked on
+
+2019-01-19 16:20:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Shop ZPW/a_Products"), 100): Web element with id: 'Object Repository/Page_Shop ZPW/a_Products' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li[2]/a' is not present after '100' second(s)
+
+2019-01-19 16:20:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Shop ZPW/a_Products' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li[2]/a' is not present after '100' second(s)
+
+2019-01-19 16:20:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Shop ZPW/a_New Product"), 100): Web element with id: 'Object Repository/Page_Shop ZPW/a_New Product' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li[3]/a' is not present after '100' second(s)
+
+2019-01-19 16:20:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Shop ZPW/a_New Product' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li[3]/a' is not present after '100' second(s)
+
+2019-01-19 16:20:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Shop ZPW/a_Configuration"), 100): Web element with id: 'Object Repository/Page_Shop ZPW/a_Configuration' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li[4]/a' is not present after '100' second(s)
+
+2019-01-19 16:20:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Shop ZPW/a_Configuration' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li[4]/a' is not present after '100' second(s)
+
+2019-01-19 16:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout (1)")): Object: 'Object Repository/Page_Shop ZPW/button_Logout (1)' is clicked on
+
+2019-01-19 16:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout (1)' is clicked on
+
+2019-01-19 16:20:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:20:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/3 Login with valid customer account" classname="Test Cases/Web UI Tests/Login and registration/3 Login with valid customer account" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:20:52 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/3 Login with valid customer account: Test Cases/Web UI Tests/Login and registration/3 Login with valid customer account
+
+2019-01-19 16:20:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:20:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:20:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:20:54 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:03 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email (2)"), "cust@shop.com"): Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (2)'
+
+2019-01-19 16:21:04 - [MESSAGE][PASSED] - Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (2)'
+
+2019-01-19 16:21:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password (2)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (2)'
+
+2019-01-19 16:21:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (2)'
+
+2019-01-19 16:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login")): Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:21:04 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Shop ZPW/a_Administrator Panel"), 100): Web element with id: 'Object Repository/Page_Shop ZPW/a_Administrator Panel' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li/a' is not present after '100' second(s)
+
+2019-01-19 16:21:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Shop ZPW/a_Administrator Panel' located by 'By.xpath: //div[@id='navbarLeftResponsive']/ul/li/a' is not present after '100' second(s)
+
+2019-01-19 16:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout (1)")): Object: 'Object Repository/Page_Shop ZPW/button_Logout (1)' is clicked on
+
+2019-01-19 16:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout (1)' is clicked on
+
+2019-01-19 16:21:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:21:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/4 Login with vot valid email" classname="Test Cases/Web UI Tests/Login and registration/4 Login with vot valid email" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:21:08 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/4 Login with vot valid email: Test Cases/Web UI Tests/Login and registration/4 Login with vot valid email
+
+2019-01-19 16:21:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:21:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:21:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:21:11 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:22 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email (1)"), "admin_incorrect@shop.com"): Text 'admin_incorrect@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (1)'
+
+2019-01-19 16:21:23 - [MESSAGE][PASSED] - Text 'admin_incorrect@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (1)'
+
+2019-01-19 16:21:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password (1)"), "NaRTu7UBtmr+q7eG3gEDOw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (1)'
+
+2019-01-19 16:21:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (1)'
+
+2019-01-19 16:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login (1)")): Object: 'Object Repository/Page_Shop ZPW/button_Login (1)' is clicked on
+
+2019-01-19 16:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login (1)' is clicked on
+
+2019-01-19 16:21:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/div_Incorrect email or passwor"), 0): Object 'Object Repository/Page_Shop ZPW/div_Incorrect email or passwor' is present
+
+2019-01-19 16:21:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-19 16:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/div_Incorrect email or passwor' is present
+
+2019-01-19 16:21:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:21:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/5 Login with vot valid password" classname="Test Cases/Web UI Tests/Login and registration/5 Login with vot valid password" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:21:24 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/5 Login with vot valid password: Test Cases/Web UI Tests/Login and registration/5 Login with vot valid password
+
+2019-01-19 16:21:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:21:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:21:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:21:26 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:34 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email (1)"), "admin@shop.com"): Text 'admin@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (1)'
+
+2019-01-19 16:21:34 - [MESSAGE][PASSED] - Text 'admin@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (1)'
+
+2019-01-19 16:21:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password (1)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (1)'
+
+2019-01-19 16:21:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (1)'
+
+2019-01-19 16:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login (1)")): Object: 'Object Repository/Page_Shop ZPW/button_Login (1)' is clicked on
+
+2019-01-19 16:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login (1)' is clicked on
+
+2019-01-19 16:21:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/div_Incorrect email or passwor"), 0): Object 'Object Repository/Page_Shop ZPW/div_Incorrect email or passwor' is present
+
+2019-01-19 16:21:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-19 16:21:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/div_Incorrect email or passwor' is present
+
+2019-01-19 16:21:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:21:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/6 Register new customer with valid credentials" classname="Test Cases/Web UI Tests/Login and registration/6 Register new customer with valid credentials" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:21:35 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/6 Register new customer with valid credentials: Test Cases/Web UI Tests/Login and registration/6 Register new customer with valid credentials
+
+2019-01-19 16:21:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:21:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:21:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:21:39 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:46 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_Create One")): Object: 'Object Repository/Page_Shop ZPW/a_Create One' is clicked on
+
+2019-01-19 16:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Create One' is clicked on
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - pool = 9), "_"].flatten(): null
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - rand = new java.util.Random(java.lang.System.currentTimeMillis()): null
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - emailParts = 5).collect({ -> ... }): null
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - emailPartsJoined = emailParts.join(): null
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email"), $emailPartsJoined@shop.com): Text '0NUwbu@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:21:47 - [MESSAGE][PASSED] - Text '0NUwbu@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:21:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Confirm Password_confirm"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Confirm Password_confirm'
+
+2019-01-19 16:21:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Confirm Password_confirm'
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Register"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Shop ZPW/button_Register' is clicked on
+
+2019-01-19 16:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Register' is clicked on
+
+2019-01-19 16:21:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_ZPW 2018"), 0): Object 'Object Repository/Page_Shop ZPW/a_ZPW 2018' is present
+
+2019-01-19 16:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-19 16:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_ZPW 2018' is present
+
+2019-01-19 16:21:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout")): Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:21:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:21:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/7 Register new customer with not valid email" classname="Test Cases/Web UI Tests/Login and registration/7 Register new customer with not valid email" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:21:50 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/7 Register new customer with not valid email: Test Cases/Web UI Tests/Login and registration/7 Register new customer with not valid email
+
+2019-01-19 16:21:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:21:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:21:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:21:52 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:58 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:21:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shop ZPW/a_Create One (1)")): Object: 'Object Repository/Page_Shop ZPW/a_Create One (1)' is clicked on
+
+2019-01-19 16:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Create One (1)' is clicked on
+
+2019-01-19 16:21:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shop ZPW/input_Email_email (3)"), "not_valid"): Text 'not_valid' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (3)'
+
+2019-01-19 16:21:59 - [MESSAGE][PASSED] - Text 'not_valid' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (3)'
+
+2019-01-19 16:21:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Shop ZPW/input_Password_password (3)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (3)'
+
+2019-01-19 16:21:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (3)'
+
+2019-01-19 16:21:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (1)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (1)'
+
+2019-01-19 16:21:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (1)'
+
+2019-01-19 16:21:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/div_Email must be a valid emai"), 100): Object 'Object Repository/Page_Shop ZPW/div_Email must be a valid emai' is present
+
+2019-01-19 16:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/div_Email must be a valid emai' is present
+
+2019-01-19 16:21:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_Shop ZPW/button_Register"), "disabled", "true", 100): Object 'Object Repository/Page_Shop ZPW/button_Register' has attribute 'disabled' with value 'true'
+
+2019-01-19 16:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/button_Register' has attribute 'disabled' with value 'true'
+
+2019-01-19 16:21:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:22:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Login and registration/8 Register new customer with not matching passwords" classname="Test Cases/Web UI Tests/Login and registration/8 Register new customer with not matching passwords" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:22:00 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Login and registration/8 Register new customer with not matching passwords: Test Cases/Web UI Tests/Login and registration/8 Register new customer with not matching passwords
+
+2019-01-19 16:22:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:22:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:22:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:22:02 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:22:13 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:22:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shop ZPW/a_Create One (2)")): Object: 'Object Repository/Page_Shop ZPW/a_Create One (2)' is clicked on
+
+2019-01-19 16:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_Create One (2)' is clicked on
+
+2019-01-19 16:22:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shop ZPW/input_Email_email (4)"), "some_email@shop.com"): Text 'some_email@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (4)'
+
+2019-01-19 16:22:14 - [MESSAGE][PASSED] - Text 'some_email@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (4)'
+
+2019-01-19 16:22:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Shop ZPW/input_Password_password (4)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (4)'
+
+2019-01-19 16:22:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (4)'
+
+2019-01-19 16:22:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (2)"), "8SQVv/p9jVQz2gZTiSc0Fg=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (2)'
+
+2019-01-19 16:22:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (2)'
+
+2019-01-19 16:22:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Shop ZPW/div_Passwords must match"), 100): Object 'Object Repository/Page_Shop ZPW/div_Passwords must match' is present
+
+2019-01-19 16:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/div_Passwords must match' is present
+
+2019-01-19 16:22:14 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Page_Shop ZPW/button_Register (2)"), "disabled", "true", 100): Object 'Object Repository/Page_Shop ZPW/button_Register (2)' has attribute 'disabled' with value 'true'
+
+2019-01-19 16:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/button_Register (2)' has attribute 'disabled' with value 'true'
+
+2019-01-19 16:22:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:22:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Products/9 Filter products by category" classname="Test Cases/Web UI Tests/Products/9 Filter products by category" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:22:15 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Products/9 Filter products by category: Test Cases/Web UI Tests/Products/9 Filter products by category
+
+2019-01-19 16:22:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:22:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:22:17 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:22:26 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:22:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email"), "cust@shop.com"): Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:22:27 - [MESSAGE][PASSED] - Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:22:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:22:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login")): Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:22:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Shoes"), 5): Object 'Object Repository/Page_Shop ZPW/a_Shoes' is present
+
+2019-01-19 16:22:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Shoes' is present
+
+2019-01-19 16:22:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Bohemian Rhapsody"), 1): Object 'Object Repository/Page_Shop ZPW/a_Bohemian Rhapsody' is present
+
+2019-01-19 16:22:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Bohemian Rhapsody' is present
+
+2019-01-19 16:22:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/label_Music")): Object: 'Object Repository/Page_Shop ZPW/label_Music' is clicked on
+
+2019-01-19 16:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/label_Music' is clicked on
+
+2019-01-19 16:22:28 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Shop ZPW/a_Shoes"), 1): Web element with id: 'Object Repository/Page_Shop ZPW/a_Shoes' located by 'By.xpath: //a[contains(text(),'Shoes')]' is not present after '1' second(s)
+
+2019-01-19 16:22:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Shop ZPW/a_Shoes' located by 'By.xpath: //a[contains(text(),'Shoes')]' is not present after '1' second(s)
+
+2019-01-19 16:22:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Bohemian Rhapsody"), 1): Object 'Object Repository/Page_Shop ZPW/a_Bohemian Rhapsody' is present
+
+2019-01-19 16:22:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Bohemian Rhapsody' is present
+
+2019-01-19 16:22:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout")): Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:22:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:22:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Products/10 Filter products by price range" classname="Test Cases/Web UI Tests/Products/10 Filter products by price range" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:22:29 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Products/10 Filter products by price range: Test Cases/Web UI Tests/Products/10 Filter products by price range
+
+2019-01-19 16:22:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:22:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:22:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:22:32 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:22:46 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:22:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shop ZPW/input_Email_email (5)"), "cust@shop.com"): Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (5)'
+
+2019-01-19 16:22:46 - [MESSAGE][PASSED] - Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email (5)'
+
+2019-01-19 16:22:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Shop ZPW/input_Password_password (5)"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (5)'
+
+2019-01-19 16:22:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password (5)'
+
+2019-01-19 16:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shop ZPW/button_Login (3)")): Object: 'Object Repository/Page_Shop ZPW/button_Login (3)' is clicked on
+
+2019-01-19 16:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login (3)' is clicked on
+
+2019-01-19 16:22:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Shoes"), 5): Object 'Object Repository/Page_Shop ZPW/a_Shoes' is present
+
+2019-01-19 16:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Shoes' is present
+
+2019-01-19 16:22:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Backpack"), 1): Object 'Object Repository/Page_Shop ZPW/a_Backpack' is present
+
+2019-01-19 16:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Backpack' is present
+
+2019-01-19 16:22:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_TV"), 1): Object 'Object Repository/Page_Shop ZPW/a_TV' is present
+
+2019-01-19 16:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_TV' is present
+
+2019-01-19 16:22:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Design patterns"), 1): Object 'Object Repository/Page_Shop ZPW/a_Design patterns' is present
+
+2019-01-19 16:22:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Design patterns' is present
+
+2019-01-19 16:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shop ZPW/input_Min_minPrice"), "250"): Text '250' is set on object 'Object Repository/Page_Shop ZPW/input_Min_minPrice'
+
+2019-01-19 16:22:51 - [MESSAGE][PASSED] - Text '250' is set on object 'Object Repository/Page_Shop ZPW/input_Min_minPrice'
+
+2019-01-19 16:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shop ZPW/input_Max_maxPrice"), "300"): Text '300' is set on object 'Object Repository/Page_Shop ZPW/input_Max_maxPrice'
+
+2019-01-19 16:22:51 - [MESSAGE][PASSED] - Text '300' is set on object 'Object Repository/Page_Shop ZPW/input_Max_maxPrice'
+
+2019-01-19 16:22:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Shop ZPW/input_Max_maxPrice"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Shop ZPW/input_Max_maxPrice'
+
+2019-01-19 16:22:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Shop ZPW/input_Max_maxPrice'
+
+2019-01-19 16:22:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_TV"), 5): Object 'Object Repository/Page_Shop ZPW/a_TV' is present
+
+2019-01-19 16:22:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_TV' is present
+
+2019-01-19 16:22:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Backpack"), 1): Object 'Object Repository/Page_Shop ZPW/a_Backpack' is present
+
+2019-01-19 16:22:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Backpack' is present
+
+2019-01-19 16:22:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Shop ZPW/a_Shoes"), 1): Web element with id: 'Object Repository/Page_Shop ZPW/a_Shoes' located by 'By.xpath: //a[contains(text(),'Shoes')]' is not present after '1' second(s)
+
+2019-01-19 16:22:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Shop ZPW/a_Shoes' located by 'By.xpath: //a[contains(text(),'Shoes')]' is not present after '1' second(s)
+
+2019-01-19 16:22:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Shop ZPW/a_Design patterns"), 1): Web element with id: 'Object Repository/Page_Shop ZPW/a_Design patterns' located by 'By.xpath: //a[contains(text(),'Design patterns')]' is not present after '1' second(s)
+
+2019-01-19 16:22:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Shop ZPW/a_Design patterns' located by 'By.xpath: //a[contains(text(),'Design patterns')]' is not present after '1' second(s)
+
+2019-01-19 16:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout")): Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:22:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:22:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Products/11 Products lists pagination" classname="Test Cases/Web UI Tests/Products/11 Products lists pagination" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:22:52 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Products/11 Products lists pagination: Test Cases/Web UI Tests/Products/11 Products lists pagination
+
+2019-01-19 16:22:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:22:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:22:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:22:55 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:23:04 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:23:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email"), "cust@shop.com"): Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:23:04 - [MESSAGE][PASSED] - Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:23:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:23:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:23:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_page 2"), 5): Object 'Object Repository/Page_Shop ZPW/a_page 2' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_page 2' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Shoes"), 1): Object 'Object Repository/Page_Shop ZPW/a_Shoes' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Shoes' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Bohemian Rhapsody"), 1): Object 'Object Repository/Page_Shop ZPW/a_Bohemian Rhapsody' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Bohemian Rhapsody' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Design patterns"), 1): Object 'Object Repository/Page_Shop ZPW/a_Design patterns' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Design patterns' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Knife"), 1): Object 'Object Repository/Page_Shop ZPW/a_Knife' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Knife' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_TV"), 1): Object 'Object Repository/Page_Shop ZPW/a_TV' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_TV' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Backpack"), 1): Object 'Object Repository/Page_Shop ZPW/a_Backpack' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Backpack' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/a_page 2")): Object: 'Object Repository/Page_Shop ZPW/a_page 2' is clicked on
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/a_page 2' is clicked on
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/a_Clean code"), 1): Object 'Object Repository/Page_Shop ZPW/a_Clean code' is present
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/a_Clean code' is present
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout")): Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:23:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:23:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UI Tests/Orders/12 Create valid order" classname="Test Cases/Web UI Tests/Orders/12 Create valid order" status="PASSED">
+         <system-out><![CDATA[2019-01-19 16:23:07 - [TEST_CASE][PASSED] - Test Cases/Web UI Tests/Orders/12 Create valid order: Test Cases/Web UI Tests/Orders/12 Create valid order
+
+2019-01-19 16:23:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-19 16:23:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-19 16:23:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-19 16:23:09 - [TEST_STEP][PASSED] - navigateToUrl("https://hidden-meadow-13855.herokuapp.com/"): Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:23:19 - [MESSAGE][PASSED] - Navigate to 'https://hidden-meadow-13855.herokuapp.com/' successfully
+
+2019-01-19 16:23:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Email_email"), "cust@shop.com"): Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:23:20 - [MESSAGE][PASSED] - Text 'cust@shop.com' is set on object 'Object Repository/Page_Shop ZPW/input_Email_email'
+
+2019-01-19 16:23:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Shop ZPW/input_Password_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:23:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Shop ZPW/input_Password_password'
+
+2019-01-19 16:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Login")): Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Login' is clicked on
+
+2019-01-19 16:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_ 99_btn btn-labeled btn")): Object: 'Object Repository/Page_Shop ZPW/button_ 99_btn btn-labeled btn' is clicked on
+
+2019-01-19 16:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_ 99_btn btn-labeled btn' is clicked on
+
+2019-01-19 16:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_ 99_btn btn-labeled btn"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Shop ZPW/button_ 99_btn btn-labeled btn' is clicked on
+
+2019-01-19 16:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_ 99_btn btn-labeled btn' is clicked on
+
+2019-01-19 16:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_ 50_btn btn-labeled btn")): Object: 'Object Repository/Page_Shop ZPW/button_ 50_btn btn-labeled btn' is clicked on
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_ 50_btn btn-labeled btn' is clicked on
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Shopping Cart")): Object: 'Object Repository/Page_Shop ZPW/button_Shopping Cart' is clicked on
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Shopping Cart' is clicked on
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/td_Bohemian Rhapsody"), 1): Object 'Object Repository/Page_Shop ZPW/td_Bohemian Rhapsody' is present
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/td_Bohemian Rhapsody' is present
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/td_Knife"), 1): Object 'Object Repository/Page_Shop ZPW/td_Knife' is present
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/td_Knife' is present
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - price1 = getText(findTestObject("Page_Shop ZPW/td_55.00")): Text of object 'Object Repository/Page_Shop ZPW/td_55.00' is: '$55.00'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Shop ZPW/td_55.00' is: '$55.00'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - assert price1 == "$55.00": null
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - price2 = getText(findTestObject("Page_Shop ZPW/td_10.00")): Text of object 'Object Repository/Page_Shop ZPW/td_10.00' is: '$10.00'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Shop ZPW/td_10.00' is: '$10.00'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - assert price2 == "$10.00": null
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - quantity1 = getText(findTestObject("Page_Shop ZPW/td_2")): Text of object 'Object Repository/Page_Shop ZPW/td_2' is: '2'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Shop ZPW/td_2' is: '2'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - assert quantity1 == "2": null
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - quantity2 = getText(findTestObject("Page_Shop ZPW/td_1")): Text of object 'Object Repository/Page_Shop ZPW/td_1' is: '1'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Shop ZPW/td_1' is: '1'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - assert quantity2 == "1": null
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - totalValue = getText(findTestObject("Page_Shop ZPW/td_Total value 120.00")): Text of object 'Object Repository/Page_Shop ZPW/td_Total value 120.00' is: 'Total value: $120.00'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Shop ZPW/td_Total value 120.00' is: 'Total value: $120.00'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - assert totalValue == "Total value: $120.00": null
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Proceed order")): Object: 'Object Repository/Page_Shop ZPW/button_Proceed order' is clicked on
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Proceed order' is clicked on
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_First Name_firstName"), "Customer"): Text 'Customer' is set on object 'Object Repository/Page_Shop ZPW/input_First Name_firstName'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text 'Customer' is set on object 'Object Repository/Page_Shop ZPW/input_First Name_firstName'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Last Name_lastName"), "Avg"): Text 'Avg' is set on object 'Object Repository/Page_Shop ZPW/input_Last Name_lastName'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text 'Avg' is set on object 'Object Repository/Page_Shop ZPW/input_Last Name_lastName'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_City_city"), "Kraków"): Text 'Kraków' is set on object 'Object Repository/Page_Shop ZPW/input_City_city'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text 'Kraków' is set on object 'Object Repository/Page_Shop ZPW/input_City_city'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Street_street"), "Czarnowiejska"): Text 'Czarnowiejska' is set on object 'Object Repository/Page_Shop ZPW/input_Street_street'
+
+2019-01-19 16:23:23 - [MESSAGE][PASSED] - Text 'Czarnowiejska' is set on object 'Object Repository/Page_Shop ZPW/input_Street_street'
+
+2019-01-19 16:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Shop ZPW/input_Postal Code_postalCode"), "32-500"): Text '32-500' is set on object 'Object Repository/Page_Shop ZPW/input_Postal Code_postalCode'
+
+2019-01-19 16:23:24 - [MESSAGE][PASSED] - Text '32-500' is set on object 'Object Repository/Page_Shop ZPW/input_Postal Code_postalCode'
+
+2019-01-19 16:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Submit your order")): Object: 'Object Repository/Page_Shop ZPW/button_Submit your order' is clicked on
+
+2019-01-19 16:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Submit your order' is clicked on
+
+2019-01-19 16:23:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Shop ZPW/div_Close Order successfully s"), 1): Object 'Object Repository/Page_Shop ZPW/div_Close Order successfully s' is present
+
+2019-01-19 16:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop ZPW/div_Close Order successfully s' is present
+
+2019-01-19 16:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Shop ZPW/button_Logout")): Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop ZPW/button_Logout' is clicked on
+
+2019-01-19 16:23:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-19 16:23:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-19 16:20:21 - [TEST_SUITE][PASSED] - UI Tests: Test Cases/Web UI Tests/Orders/12 Create valid order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

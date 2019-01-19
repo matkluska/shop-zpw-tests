@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Common UI Tests,Firefox 59.0,,2019-01-19 21:56:19,2019-01-19 21:58:56,2m - 36.438s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/1 Login with valid admin account,Firefox 59.0,,2019-01-19 21:56:20,2019-01-19 21:56:38,18.531s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:56:20,2019-01-19 21:56:23,3.512s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:56:23,2019-01-19 21:56:33,9.740s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email (2)""), ""admin@shop.com"")",Firefox 59.0,,2019-01-19 21:56:33,2019-01-19 21:56:34,1.145s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password (2)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:56:34,2019-01-19 21:56:34,0.138s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 21:56:34,2019-01-19 21:56:35,0.263s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Administrator Panel""), 100)",Firefox 59.0,,2019-01-19 21:56:35,2019-01-19 21:56:36,1.056s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel""))",Firefox 59.0,,2019-01-19 21:56:36,2019-01-19 21:56:36,0.342s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Orders""), 100)",Firefox 59.0,,2019-01-19 21:56:36,2019-01-19 21:56:36,0.021s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Orders""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 21:56:36,2019-01-19 21:56:36,0.244s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Products""), 100)",Firefox 59.0,,2019-01-19 21:56:36,2019-01-19 21:56:36,0.013s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Products""))",Firefox 59.0,,2019-01-19 21:56:36,2019-01-19 21:56:37,0.264s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_New Product""), 100)",Firefox 59.0,,2019-01-19 21:56:37,2019-01-19 21:56:37,0.017s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_New Product""))",Firefox 59.0,,2019-01-19 21:56:37,2019-01-19 21:56:37,0.272s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Configuration""), 100)",Firefox 59.0,,2019-01-19 21:56:37,2019-01-19 21:56:37,0.011s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Configuration""))",Firefox 59.0,,2019-01-19 21:56:37,2019-01-19 21:56:37,0.269s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout (1)""))",Firefox 59.0,,2019-01-19 21:56:37,2019-01-19 21:56:37,0.248s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:56:37,2019-01-19 21:56:38,0.692s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/2 Login with valid employee account,Firefox 59.0,,2019-01-19 21:56:38,2019-01-19 21:56:52,14.054s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:56:38,2019-01-19 21:56:40,1.916s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:56:40,2019-01-19 21:56:47,6.974s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email (2)""), ""emp@shop.com"")",Firefox 59.0,,2019-01-19 21:56:47,2019-01-19 21:56:48,1.109s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password (2)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:56:48,2019-01-19 21:56:48,0.068s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 21:56:48,2019-01-19 21:56:49,0.245s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Administrator Panel""), 100)",Firefox 59.0,,2019-01-19 21:56:49,2019-01-19 21:56:51,2.032s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel""))",Firefox 59.0,,2019-01-19 21:56:51,2019-01-19 21:56:51,0.277s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Orders""), 100)",Firefox 59.0,,2019-01-19 21:56:51,2019-01-19 21:56:51,0.105s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Orders""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 21:56:51,2019-01-19 21:56:51,0.236s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_Products""), 100)",Firefox 59.0,,2019-01-19 21:56:51,2019-01-19 21:56:51,0.053s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_New Product""), 100)",Firefox 59.0,,2019-01-19 21:56:51,2019-01-19 21:56:51,0.010s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_Configuration""), 100)",Firefox 59.0,,2019-01-19 21:56:51,2019-01-19 21:56:51,0.010s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout (1)""))",Firefox 59.0,,2019-01-19 21:56:51,2019-01-19 21:56:52,0.236s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:56:52,2019-01-19 21:56:52,0.654s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/3 Login with valid customer account,Firefox 59.0,,2019-01-19 21:56:52,2019-01-19 21:57:09,17.042s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:56:52,2019-01-19 21:56:54,1.909s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:56:54,2019-01-19 21:57:05,10.814s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email (2)""), ""cust@shop.com"")",Firefox 59.0,,2019-01-19 21:57:05,2019-01-19 21:57:06,0.596s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password (2)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:57:06,2019-01-19 21:57:06,0.066s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 21:57:06,2019-01-19 21:57:06,0.241s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_Administrator Panel""), 100)",Firefox 59.0,,2019-01-19 21:57:06,2019-01-19 21:57:06,0.013s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout (1)""))",Firefox 59.0,,2019-01-19 21:57:06,2019-01-19 21:57:08,2.156s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:57:08,2019-01-19 21:57:09,1.170s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/4 Login with vot valid email,Firefox 59.0,,2019-01-19 21:57:09,2019-01-19 21:57:23,13.304s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:57:09,2019-01-19 21:57:11,1.985s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:57:11,2019-01-19 21:57:20,9.147s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email (1)""), ""admin_incorrect@shop.com"")",Firefox 59.0,,2019-01-19 21:57:20,2019-01-19 21:57:22,1.118s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password (1)""), ""NaRTu7UBtmr+q7eG3gEDOw=="")",Firefox 59.0,,2019-01-19 21:57:22,2019-01-19 21:57:22,0.064s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login (1)""))",Firefox 59.0,,2019-01-19 21:57:22,2019-01-19 21:57:22,0.245s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/div_Incorrect email or passwor""), 0)",Firefox 59.0,,2019-01-19 21:57:22,2019-01-19 21:57:22,0.013s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:57:22,2019-01-19 21:57:23,0.648s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/5 Login with vot valid password,Firefox 59.0,,2019-01-19 21:57:23,2019-01-19 21:57:36,13.745s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:57:23,2019-01-19 21:57:25,1.900s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:57:25,2019-01-19 21:57:35,10.190s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email (1)""), ""admin@shop.com"")",Firefox 59.0,,2019-01-19 21:57:35,2019-01-19 21:57:35,0.643s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password (1)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:57:35,2019-01-19 21:57:35,0.054s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login (1)""))",Firefox 59.0,,2019-01-19 21:57:35,2019-01-19 21:57:36,0.238s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/div_Incorrect email or passwor""), 0)",Firefox 59.0,,2019-01-19 21:57:36,2019-01-19 21:57:36,0.010s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:57:36,2019-01-19 21:57:36,0.631s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/6 Register new customer with valid credentials,Firefox 59.0,,2019-01-19 21:57:36,2019-01-19 21:57:53,16.819s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:57:36,2019-01-19 21:57:38,1.913s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:57:38,2019-01-19 21:57:48,9.960s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Create One""))",Firefox 59.0,,2019-01-19 21:57:48,2019-01-19 21:57:49,0.877s,PASSED
+"pool = 9), ""_""].flatten()",Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:49,0.005s,PASSED
+rand = new java.util.Random(java.lang.System.currentTimeMillis()),Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:49,0.003s,PASSED
+emailParts = 5).collect({ -> ... }),Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:49,0.010s,PASSED
+emailPartsJoined = emailParts.join(),Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:49,0.001s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), $emailPartsJoined@shop.com)",Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:49,0.090s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:49,0.054s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Confirm Password_confirm""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:49,0.055s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Register""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 21:57:49,2019-01-19 21:57:50,0.241s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_ZPW 2018""), 0)",Firefox 59.0,,2019-01-19 21:57:50,2019-01-19 21:57:51,1.046s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 21:57:51,2019-01-19 21:57:52,1.275s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:57:52,2019-01-19 21:57:53,1.190s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/7 Register new customer with not valid email,Firefox 59.0,,2019-01-19 21:57:53,2019-01-19 21:58:05,11.467s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:57:53,2019-01-19 21:57:55,1.996s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:57:55,2019-01-19 21:58:02,7.178s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/a_Create One (1)""))",Firefox 59.0,,2019-01-19 21:58:02,2019-01-19 21:58:04,1.298s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shop ZPW/input_Email_email (3)""), ""not_valid"")",Firefox 59.0,,2019-01-19 21:58:04,2019-01-19 21:58:04,0.072s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Shop ZPW/input_Password_password (3)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:58:04,2019-01-19 21:58:04,0.063s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (1)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:58:04,2019-01-19 21:58:04,0.063s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/div_Email must be a valid emai""), 100)",Firefox 59.0,,2019-01-19 21:58:04,2019-01-19 21:58:04,0.011s,PASSED
+"verifyElementAttributeValue(findTestObject(""Page_Shop ZPW/button_Register""), ""disabled"", ""true"", 100)",Firefox 59.0,,2019-01-19 21:58:04,2019-01-19 21:58:04,0.041s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:58:04,2019-01-19 21:58:05,0.656s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Login and registration/8 Register new customer with not matching passwords,Firefox 59.0,,2019-01-19 21:58:05,2019-01-19 21:58:16,11.885s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:58:05,2019-01-19 21:58:07,2.028s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:58:07,2019-01-19 21:58:15,8.094s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/a_Create One (2)""))",Firefox 59.0,,2019-01-19 21:58:15,2019-01-19 21:58:16,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shop ZPW/input_Email_email (4)""), ""some_email@shop.com"")",Firefox 59.0,,2019-01-19 21:58:16,2019-01-19 21:58:16,0.084s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Shop ZPW/input_Password_password (4)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:58:16,2019-01-19 21:58:16,0.051s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Shop ZPW/input_Confirm Password_confirm (2)""), ""8SQVv/p9jVQz2gZTiSc0Fg=="")",Firefox 59.0,,2019-01-19 21:58:16,2019-01-19 21:58:16,0.054s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Shop ZPW/div_Passwords must match""), 100)",Firefox 59.0,,2019-01-19 21:58:16,2019-01-19 21:58:16,0.011s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Page_Shop ZPW/button_Register (2)""), ""disabled"", ""true"", 100)",Firefox 59.0,,2019-01-19 21:58:16,2019-01-19 21:58:16,0.029s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:58:16,2019-01-19 21:58:16,0.656s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/20 Edit data source,Firefox 59.0,,2019-01-19 21:58:16,2019-01-19 21:58:56,39.351s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 21:58:17,2019-01-19 21:58:19,2.110s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 21:58:19,2019-01-19 21:58:28,9.241s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), ""admin@shop.com"")",Firefox 59.0,,2019-01-19 21:58:28,2019-01-19 21:58:29,0.635s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 21:58:29,2019-01-19 21:58:29,0.064s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 21:58:29,2019-01-19 21:58:29,0.239s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel""))",Firefox 59.0,,2019-01-19 21:58:29,2019-01-19 21:58:31,2.189s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Configuration""))",Firefox 59.0,,2019-01-19 21:58:31,2019-01-19 21:58:31,0.369s,PASSED
+"check(findTestObject(""Page_Shop ZPW/input_Firebase_firebase""))",Firefox 59.0,,2019-01-19 21:58:31,2019-01-19 21:58:32,0.248s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Update configuration""))",Firefox 59.0,,2019-01-19 21:58:32,2019-01-19 21:58:32,0.245s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Configuration""))",Firefox 59.0,,2019-01-19 21:58:32,2019-01-19 21:58:45,13.170s,PASSED
+"check(findTestObject(""Page_Shop ZPW/input_Rest_rest""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 21:58:45,2019-01-19 21:58:46,1.295s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Update configuration""))",Firefox 59.0,,2019-01-19 21:58:46,2019-01-19 21:58:47,0.257s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Configuration""))",Firefox 59.0,,2019-01-19 21:58:47,2019-01-19 21:58:53,6.739s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 21:58:53,2019-01-19 21:58:55,1.822s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 21:58:55,2019-01-19 21:58:56,0.649s,PASSED

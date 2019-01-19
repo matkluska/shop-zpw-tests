@@ -1,0 +1,216 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UI Tests Depend on Data Source,Firefox 59.0,,2019-01-19 22:48:27,2019-01-19 22:52:55,4m - 27.451s,FAILED
+,,,,,,
+Test Cases/Web UI Tests/Products/9 Filter products by category,Firefox 59.0,,2019-01-19 22:48:28,2019-01-19 22:48:47,19.759s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:48:28,2019-01-19 22:48:31,3.436s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:48:31,2019-01-19 22:48:43,11.389s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), ""cust@shop.com"")",Firefox 59.0,,2019-01-19 22:48:43,2019-01-19 22:48:43,0.744s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:48:43,2019-01-19 22:48:44,0.140s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 22:48:44,2019-01-19 22:48:44,0.255s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Shoes""), 5)",Firefox 59.0,,2019-01-19 22:48:44,2019-01-19 22:48:46,2.012s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Bohemian Rhapsody""), 1)",Firefox 59.0,,2019-01-19 22:48:46,2019-01-19 22:48:46,0.014s,PASSED
+"click(findTestObject(""Page_Shop ZPW/label_Music""))",Firefox 59.0,,2019-01-19 22:48:46,2019-01-19 22:48:46,0.240s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_Shoes""), 1)",Firefox 59.0,,2019-01-19 22:48:46,2019-01-19 22:48:46,0.084s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Bohemian Rhapsody""), 1)",Firefox 59.0,,2019-01-19 22:48:46,2019-01-19 22:48:46,0.012s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 22:48:46,2019-01-19 22:48:46,0.253s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:48:46,2019-01-19 22:48:47,0.889s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Products/10 Filter products by price range,Firefox 59.0,,2019-01-19 22:48:47,2019-01-19 22:49:06,18.578s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:48:47,2019-01-19 22:48:50,2.162s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:48:50,2019-01-19 22:48:58,8.625s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shop ZPW/input_Email_email (5)""), ""cust@shop.com"")",Firefox 59.0,,2019-01-19 22:48:58,2019-01-19 22:49:03,5.199s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Shop ZPW/input_Password_password (5)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:49:03,2019-01-19 22:49:03,0.076s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_Login (3)""))",Firefox 59.0,,2019-01-19 22:49:03,2019-01-19 22:49:04,0.245s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Shoes""), 5)",Firefox 59.0,,2019-01-19 22:49:04,2019-01-19 22:49:05,1.028s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Backpack""), 1)",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_TV""), 1)",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Design patterns""), 1)",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.010s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shop ZPW/input_Min_minPrice""), ""250"")",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.052s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shop ZPW/input_Max_maxPrice""), ""300"")",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.059s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Shop ZPW/input_Max_maxPrice""), Keys.chord(ENTER))",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.037s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_TV""), 5)",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Backpack""), 1)",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.012s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_Shoes""), 1)",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.012s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_Design patterns""), 1)",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.012s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:05,0.255s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:49:05,2019-01-19 22:49:06,0.653s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Products/11 Products lists pagination,Firefox 59.0,,2019-01-19 22:49:06,2019-01-19 22:49:21,15.507s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:49:06,2019-01-19 22:49:08,2.291s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:49:08,2019-01-19 22:49:18,9.814s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), ""cust@shop.com"")",Firefox 59.0,,2019-01-19 22:49:18,2019-01-19 22:49:19,0.653s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:49:19,2019-01-19 22:49:19,0.067s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 22:49:19,2019-01-19 22:49:19,0.245s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_page 2""), 5)",Firefox 59.0,,2019-01-19 22:49:19,2019-01-19 22:49:20,1.037s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Shoes""), 1)",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Bohemian Rhapsody""), 1)",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Design patterns""), 1)",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Knife""), 1)",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_TV""), 1)",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.009s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Backpack""), 1)",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.018s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_page 2""))",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.297s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/a_Clean code""), 1)",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:20,0.013s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 22:49:20,2019-01-19 22:49:21,0.266s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:49:21,2019-01-19 22:49:21,0.659s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Orders/12 Create valid order,Firefox 59.0,,2019-01-19 22:49:21,2019-01-19 22:49:39,17.435s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:49:22,2019-01-19 22:49:24,2.127s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:49:24,2019-01-19 22:49:33,9.208s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), ""cust@shop.com"")",Firefox 59.0,,2019-01-19 22:49:33,2019-01-19 22:49:34,0.661s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:49:34,2019-01-19 22:49:34,0.068s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 22:49:34,2019-01-19 22:49:34,0.244s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 99_btn btn-labeled btn""))",Firefox 59.0,,2019-01-19 22:49:34,2019-01-19 22:49:36,2.338s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 99_btn btn-labeled btn""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 22:49:36,2019-01-19 22:49:36,0.227s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 50_btn btn-labeled btn""))",Firefox 59.0,,2019-01-19 22:49:36,2019-01-19 22:49:37,0.240s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Shopping Cart""))",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.283s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/td_Bohemian Rhapsody""), 1)",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/td_Knife""), 1)",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.010s,PASSED
+"price1 = getText(findTestObject(""Page_Shop ZPW/td_55.00""))",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.034s,PASSED
+"assert price1 == ""$55.00""",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.001s,PASSED
+"price2 = getText(findTestObject(""Page_Shop ZPW/td_10.00""))",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.018s,PASSED
+"assert price2 == ""$10.00""",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.000s,PASSED
+"quantity1 = getText(findTestObject(""Page_Shop ZPW/td_2""))",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.019s,PASSED
+"assert quantity1 == ""2""",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.000s,PASSED
+"quantity2 = getText(findTestObject(""Page_Shop ZPW/td_1""))",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.019s,PASSED
+"assert quantity2 == ""1""",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.000s,PASSED
+"totalValue = getText(findTestObject(""Page_Shop ZPW/td_Total value 120.00""))",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.019s,PASSED
+"assert totalValue == ""Total value: $120.00""",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.000s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Proceed order""))",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.259s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_First Name_firstName""), ""Customer"")",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.075s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Last Name_lastName""), ""Avg"")",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:37,0.058s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_City_city""), ""Kraków"")",Firefox 59.0,,2019-01-19 22:49:37,2019-01-19 22:49:38,0.061s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Street_street""), ""Czarnowiejska"")",Firefox 59.0,,2019-01-19 22:49:38,2019-01-19 22:49:38,0.075s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Postal Code_postalCode""), ""32-500"")",Firefox 59.0,,2019-01-19 22:49:38,2019-01-19 22:49:38,0.059s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Submit your order""))",Firefox 59.0,,2019-01-19 22:49:38,2019-01-19 22:49:38,0.264s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/div_Close Order successfully s""), 1)",Firefox 59.0,,2019-01-19 22:49:38,2019-01-19 22:49:38,0.024s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 22:49:38,2019-01-19 22:49:38,0.254s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:49:38,2019-01-19 22:49:39,0.656s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Orders/13 Cancel order,Firefox 59.0,,2019-01-19 22:49:39,2019-01-19 22:49:56,17.436s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:49:39,2019-01-19 22:49:41,2.248s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:49:41,2019-01-19 22:49:51,10.132s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shop ZPW/input_Email_email (6) (1)""), ""cust@shop.com"")",Firefox 59.0,,2019-01-19 22:49:51,2019-01-19 22:49:52,0.726s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Shop ZPW/input_Password_password (6) (1)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:49:52,2019-01-19 22:49:52,0.073s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_Login (4) (1)""))",Firefox 59.0,,2019-01-19 22:49:52,2019-01-19 22:49:52,0.243s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_ 91_btn btn-labeled btn (1) (1)""))",Firefox 59.0,,2019-01-19 22:49:52,2019-01-19 22:49:55,2.210s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_Shopping Cart (1) (1)""))",Firefox 59.0,,2019-01-19 22:49:55,2019-01-19 22:49:55,0.272s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Shop ZPW/td_Bohemian Rhapsody (2)""), 1)",Firefox 59.0,,2019-01-19 22:49:55,2019-01-19 22:49:55,0.011s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_55.00_btn btn-labeled b (1)""))",Firefox 59.0,,2019-01-19 22:49:55,2019-01-19 22:49:55,0.230s,PASSED
+"totalValue = getText(findTestObject(""Object Repository/Page_Shop ZPW/td_Total value 0.00""))",Firefox 59.0,,2019-01-19 22:49:55,2019-01-19 22:49:55,0.025s,PASSED
+"assert totalValue == ""Total value: $0.00""",Firefox 59.0,,2019-01-19 22:49:55,2019-01-19 22:49:55,0.000s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Back to shopping""))",Firefox 59.0,,2019-01-19 22:49:55,2019-01-19 22:49:55,0.250s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_Logout (3) (1)""))",Firefox 59.0,,2019-01-19 22:49:55,2019-01-19 22:49:56,0.268s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:49:56,2019-01-19 22:49:56,0.655s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Orders/14 Order which empty product,Firefox 59.0,,2019-01-19 22:49:56,2019-01-19 22:50:14,17.524s,FAILED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:49:56,2019-01-19 22:49:58,2.071s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:49:58,2019-01-19 22:50:07,8.714s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), ""cust@shop.com"")",Firefox 59.0,,2019-01-19 22:50:07,2019-01-19 22:50:08,0.629s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:50:08,2019-01-19 22:50:08,0.066s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 22:50:08,2019-01-19 22:50:08,0.241s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 7_btn btn-labeled btn-""))",Firefox 59.0,,2019-01-19 22:50:08,2019-01-19 22:50:10,2.090s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 7_btn btn-labeled btn-""))",Firefox 59.0,,2019-01-19 22:50:10,2019-01-19 22:50:10,0.246s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 7_btn btn-labeled btn-""))",Firefox 59.0,,2019-01-19 22:50:10,2019-01-19 22:50:11,0.228s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 7_btn btn-labeled btn-""))",Firefox 59.0,,2019-01-19 22:50:11,2019-01-19 22:50:11,0.228s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_ 7_btn btn-labeled btn-""))",Firefox 59.0,,2019-01-19 22:50:11,2019-01-19 22:50:11,0.226s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/a_TV""), 2)",Firefox 59.0,,2019-01-19 22:50:11,2019-01-19 22:50:14,2.700s,FAILED
+,,,,,,
+Test Cases/Web UI Tests/Orders/15 Order handling by employee,Firefox 59.0,,2019-01-19 22:50:14,2019-01-19 22:50:32,18.076s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:50:14,2019-01-19 22:50:17,2.894s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:50:17,2019-01-19 22:50:27,10.022s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shop ZPW/input_Email_email (7) (1)""), ""emp@shop.com"")",Firefox 59.0,,2019-01-19 22:50:27,2019-01-19 22:50:28,0.711s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Shop ZPW/input_Password_password (7) (1)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:50:28,2019-01-19 22:50:28,0.067s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_Login (5) (1)""))",Firefox 59.0,,2019-01-19 22:50:28,2019-01-19 22:50:28,0.247s,PASSED
+delay(2),Firefox 59.0,,2019-01-19 22:50:28,2019-01-19 22:50:30,2.015s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel""))",Firefox 59.0,,2019-01-19 22:50:30,2019-01-19 22:50:30,0.324s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop ZPW/button_To realization (1) (1)""))",Firefox 59.0,,2019-01-19 22:50:30,2019-01-19 22:50:31,0.745s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Shop ZPW/button_Shipped (1) (1)""), 1)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.013s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/Page_Shop ZPW/button_Details (1) (1)""), 30)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.016s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.040s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/Page_Shop ZPW/input_110.00_ng-untouched ng-p (1) (1)""), 30)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.010s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.017s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/Page_Shop ZPW/input_10.00_ng-untouched ng-pr (1) (1)""), 30)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.013s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.016s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/Page_Shop ZPW/button_Save changes (1) (1)""), 30)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.010s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.014s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/Page_Shop ZPW/button_Shipped (1) (1)""), 30)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.008s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.008s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/Page_Shop ZPW/td_Shipped""), 30)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.010s,PASSED
+"assert element != null : ""Order should be shipped""",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.000s,PASSED
+"element = findWebElement(findTestObject(""Object Repository/Page_Shop ZPW/button_Logout (4) (1)""), 30)",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.010s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:31,0.016s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:50:31,2019-01-19 22:50:32,0.704s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Products/16 Add new product,Firefox 59.0,,2019-01-19 22:50:32,2019-01-19 22:50:49,17.538s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:50:32,2019-01-19 22:50:34,2.224s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:50:34,2019-01-19 22:50:42,7.995s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), ""admin@shop.com"")",Firefox 59.0,,2019-01-19 22:50:42,2019-01-19 22:50:43,0.697s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:50:43,2019-01-19 22:50:43,0.057s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 22:50:43,2019-01-19 22:50:43,0.233s,PASSED
+delay(2),Firefox 59.0,,2019-01-19 22:50:43,2019-01-19 22:50:45,2.006s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel""))",Firefox 59.0,,2019-01-19 22:50:45,2019-01-19 22:50:45,0.270s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_New Product""))",Firefox 59.0,,2019-01-19 22:50:45,2019-01-19 22:50:46,0.260s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Name_name""), ""Test"")",Firefox 59.0,,2019-01-19 22:50:46,2019-01-19 22:50:46,0.060s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Price_price""), ""5"")",Firefox 59.0,,2019-01-19 22:50:46,2019-01-19 22:50:46,0.055s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Quantity_quantity""), ""1000"")",Firefox 59.0,,2019-01-19 22:50:46,2019-01-19 22:50:46,0.062s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Description_desc""), ""opis"")",Firefox 59.0,,2019-01-19 22:50:46,2019-01-19 22:50:46,0.047s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Add product""))",Firefox 59.0,,2019-01-19 22:50:46,2019-01-19 22:50:46,0.245s,PASSED
+delay(2),Firefox 59.0,,2019-01-19 22:50:46,2019-01-19 22:50:48,2.002s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Products""))",Firefox 59.0,,2019-01-19 22:50:48,2019-01-19 22:50:48,0.292s,PASSED
+"verifyElementPresent(findTestObject(""Page_Shop ZPW/td_Test""), 2)",Firefox 59.0,,2019-01-19 22:50:48,2019-01-19 22:50:48,0.010s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 22:50:48,2019-01-19 22:50:49,0.283s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:50:49,2019-01-19 22:50:49,0.661s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Products/17 Add product discount,Firefox 59.0,,2019-01-19 22:50:49,2019-01-19 22:52:18,1m - 28.352s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:50:50,2019-01-19 22:50:52,2.242s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:50:52,2019-01-19 22:51:03,11.347s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email (8) (1)""), ""admin@shop.com"")",Firefox 59.0,,2019-01-19 22:51:03,2019-01-19 22:51:04,0.699s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password (8) (1)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:51:04,2019-01-19 22:51:04,0.071s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login (6) (1)""))",Firefox 59.0,,2019-01-19 22:51:04,2019-01-19 22:51:04,0.246s,PASSED
+delay(2),Firefox 59.0,,2019-01-19 22:51:04,2019-01-19 22:51:06,2.001s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel (5)""))",Firefox 59.0,,2019-01-19 22:51:06,2019-01-19 22:51:06,0.277s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Products (3)""))",Firefox 59.0,,2019-01-19 22:51:06,2019-01-19 22:51:07,0.256s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_22.00_btn btn-labeled b (3)""))",Firefox 59.0,,2019-01-19 22:51:07,2019-01-19 22:51:07,0.268s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Discount percent _discou (1) (1)""), ""10"")",Firefox 59.0,,2019-01-19 22:51:07,2019-01-19 22:51:07,0.058s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Duration in minutes_dura (1) (1)""), ""1"")",Firefox 59.0,,2019-01-19 22:51:07,2019-01-19 22:51:07,0.061s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Add discount (1) (1)""))",Firefox 59.0,,2019-01-19 22:51:07,2019-01-19 22:51:07,0.239s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_ZPW 2018 (2) (1)""))",Firefox 59.0,,2019-01-19 22:51:07,2019-01-19 22:51:08,0.270s,PASSED
+"text = getText(findTestObject(""Page_Shop ZPW/h5_19.80 -10_1""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 22:51:08,2019-01-19 22:51:08,0.032s,PASSED
+"assert text == ""$19.80 -10%"" : ""Price should be $19.80 -10%""",Firefox 59.0,,2019-01-19 22:51:08,2019-01-19 22:51:08,0.000s,PASSED
+delay(60),Firefox 59.0,,2019-01-19 22:51:08,2019-01-19 22:52:08,1m - 0.001s,PASSED
+refresh(),Firefox 59.0,,2019-01-19 22:52:08,2019-01-19 22:52:16,8.225s,PASSED
+"text = getText(findTestObject(""Page_Shop ZPW/h5_22.00""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 22:52:16,2019-01-19 22:52:17,1.050s,PASSED
+"assert text == ""$22.00"" : ""Price should be $22.00""",Firefox 59.0,,2019-01-19 22:52:17,2019-01-19 22:52:17,0.000s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout (5) (1)""), STOP_ON_FAILURE)",Firefox 59.0,,2019-01-19 22:52:17,2019-01-19 22:52:17,0.266s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:52:17,2019-01-19 22:52:18,0.660s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Products/18 Edit product,Firefox 59.0,,2019-01-19 22:52:18,2019-01-19 22:52:36,17.884s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:52:18,2019-01-19 22:52:20,2.164s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:52:20,2019-01-19 22:52:27,7.427s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email (9)""), ""admin@shop.com"")",Firefox 59.0,,2019-01-19 22:52:27,2019-01-19 22:52:28,0.697s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password (9)""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:52:28,2019-01-19 22:52:28,0.069s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login (7)""))",Firefox 59.0,,2019-01-19 22:52:28,2019-01-19 22:52:28,0.241s,PASSED
+delay(2),Firefox 59.0,,2019-01-19 22:52:28,2019-01-19 22:52:30,2.004s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel""))",Firefox 59.0,,2019-01-19 22:52:30,2019-01-19 22:52:34,3.039s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Products""))",Firefox 59.0,,2019-01-19 22:52:34,2019-01-19 22:52:34,0.285s,PASSED
+"click(findTestObject(""Page_Shop ZPW/i_55.00_fa fa-edit""))",Firefox 59.0,,2019-01-19 22:52:34,2019-01-19 22:52:34,0.296s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Description_desc (1)""), ""Design patterns book edited"")",Firefox 59.0,,2019-01-19 22:52:34,2019-01-19 22:52:34,0.103s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Edit product""))",Firefox 59.0,,2019-01-19 22:52:34,2019-01-19 22:52:34,0.256s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_ZPW 2018 (3)""))",Firefox 59.0,,2019-01-19 22:52:34,2019-01-19 22:52:35,0.265s,PASSED
+"text = getText(findTestObject(""Page_Shop ZPW/p_Design patterns book edited (1)""))",Firefox 59.0,,2019-01-19 22:52:35,2019-01-19 22:52:35,0.037s,PASSED
+"assert text == ""Design patterns book edited"" : ""Description after edit should be 'Design patterns book edited'""",Firefox 59.0,,2019-01-19 22:52:35,2019-01-19 22:52:35,0.000s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout (6)""))",Firefox 59.0,,2019-01-19 22:52:35,2019-01-19 22:52:35,0.251s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:52:35,2019-01-19 22:52:36,0.657s,PASSED
+,,,,,,
+Test Cases/Web UI Tests/Products/19 Delete product,Firefox 59.0,,2019-01-19 22:52:36,2019-01-19 22:52:55,19.113s,PASSED
+"openBrowser("""")",Firefox 59.0,,2019-01-19 22:52:36,2019-01-19 22:52:38,2.139s,PASSED
+"navigateToUrl(""https://hidden-meadow-13855.herokuapp.com/"")",Firefox 59.0,,2019-01-19 22:52:38,2019-01-19 22:52:47,9.548s,PASSED
+"setText(findTestObject(""Page_Shop ZPW/input_Email_email""), ""admin@shop.com"")",Firefox 59.0,,2019-01-19 22:52:47,2019-01-19 22:52:48,0.643s,PASSED
+"setEncryptedText(findTestObject(""Page_Shop ZPW/input_Password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 59.0,,2019-01-19 22:52:48,2019-01-19 22:52:48,0.062s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Login""))",Firefox 59.0,,2019-01-19 22:52:48,2019-01-19 22:52:48,0.240s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Administrator Panel""))",Firefox 59.0,,2019-01-19 22:52:48,2019-01-19 22:52:52,3.951s,PASSED
+"click(findTestObject(""Page_Shop ZPW/a_Products""))",Firefox 59.0,,2019-01-19 22:52:52,2019-01-19 22:52:53,0.249s,PASSED
+"click(findTestObject(""Page_Shop ZPW/i_5.00_fa fa-trash-o""))",Firefox 59.0,,2019-01-19 22:52:53,2019-01-19 22:52:53,0.737s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Shop ZPW/td_Test""), 5)",Firefox 59.0,,2019-01-19 22:52:53,2019-01-19 22:52:54,0.522s,PASSED
+"click(findTestObject(""Page_Shop ZPW/button_Logout""))",Firefox 59.0,,2019-01-19 22:52:54,2019-01-19 22:52:54,0.270s,PASSED
+closeBrowser(),Firefox 59.0,,2019-01-19 22:52:54,2019-01-19 22:52:55,0.656s,PASSED
